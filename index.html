@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Goswami - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <div class="text-content">
+                <h1>Hi, I'm <span class="highlight">Sumit Goswami</span></h1>
+                <p>Full Stack Developer | MERN Specialist</p>
+                <button class="download-btn" onclick="window.open('./generic_cv.pdf')">
+                    Download Resume <i class="fas fa-download"></i>
+                </button>
+            </div>
+            <div class="profile-section">
+                <div class="profile-card" data-tilt>
+                    <img src="./assets/me2.jpg" alt="Sumit Goswami">
+                </div>
+                <div class="profile-social-links">
+                    <a href="https://www.linkedin.com/in/sumit-goswami-/" target="_blank" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Sumit-7Goswami" target="_blank" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/Sumit-7Goswami/" target="_blank" class="social-icon" title="LeetCode"><i class="fas fa-code"></i></a>
+                    <a href="https://www.hackerrank.com/profile/sumitgoswami9916" target="_blank" class="social-icon" title="HackerRank"><i class="fab fa-hackerrank"></i></a>
+                    <a href="https://www.geeksforgeeks.org/user/sumit_goswami/" target="_blank" class="social-icon" title="GeeksforGeeks"><i class="fas fa-laptop-code"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I am a passionate Full Stack Developer with hands-on experience in the MERN Stack (MongoDB, Express.js, React.js, Node.js), committed to creating robust, scalable, and user-centric web applications. Currently in the final year of my B.Tech in Computer Science, I blend academic knowledge with real-world application through projects that emphasize clean architecture, performance optimization, and responsive design.
+
+                Beyond the frontend and backend, I actively engage in problem-solving and competitive programming, consistently honing my skills in data structures, algorithms, and system design. I enjoy tackling complex challenges and take pride in writing efficient, maintainable code.
+
+                <br>
+                <br>
+                
+                I am currently working on a capstone project, “JETS & S,” which showcases cutting-edge air force technologies—a reflection of my deep interest in defense and aerospace. This ties closely with my aspirations, as I am also preparing for the SSB and AFCAT, aiming to contribute to the nation as an officer in the Indian Armed Forces.
+                
+                With a strong foundation in both development and analytical thinking, I strive to bridge the gap between technology and meaningful impact. Whether it’s through building high-performance applications or serving the country, I am driven by purpose, discipline, and continuous learning.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <!-- Frontend -->
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-react"></i>
+                <h3>React.js</h3>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-css3-alt"></i>
+                <h3>Tailwind CSS</h3>
+            </div>
+            <!-- Backend -->
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-node"></i>
+                <h3>Node.js</h3>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-node-js"></i>
+                <h3>Express.js</h3>
+            </div>
+            <!-- Databases -->
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-database"></i>
+                <h3>MongoDB</h3>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-database"></i>
+                <h3>SQL</h3>
+            </div>
+            <!-- Tools -->
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-code"></i>
+                <h3>C++</h3>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-paper-plane"></i>
+                <h3>Postman</h3>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-compass"></i>
+                <h3>MongoDB Compass</h3>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-cloud"></i>
+                <h3>REST API</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" data-tilt>
+                <h3>Book Store</h3>
+                <p>A user-friendly online platform for book enthusiasts built with MERN stack, JWT, TAILWINDCSS, and CANVAS. Features include book search, user authentication, and shopping cart functionality.</p>
+                <div class="project-links">
+                    <a href="https://github.com/Sumit-7Goswami" class="github-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="live-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="project-card" data-tilt>
+                <h3>Full Stack Development - Cipher School</h3>
+                <p>Worked on optimizer project using MERN Stack, improved website efficiency and processing speed. Implemented server loading solutions resulting in 15% increase in actionable outcomes.</p>
+                <div class="project-links">
+                    <a href="https://github.com/Sumit-7Goswami" class="github-link"><i class="fab fa-github"></i></a>
+                    <a href="https://github.com/Sumit-7Goswami" class="live-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="project-card" data-tilt>
+                <h3>Your ITINERARY </h3>
+                <p>Travel the world
+                    travel the world, experience the greatness, it's the best gift given by the nature</p>
+                <div class="project-links">
+                    <a href="https://github.com/Sumit-7Goswami/travel-UI" class="github-link"><i class="fab fa-github"></i></a>
+                    <a href="https://travel-ui-lemon.vercel.app/" class="live-link"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div> 
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-card" data-tilt>
+                <h3>Lovely Professional University</h3>
+                <p>Bachelor of Technology in Computer Science</p>
+                <p>August 2022 - August 2026</p>
+                <p>GPA: 7.72</p>
+            </div>
+            <div class="education-card" data-tilt>
+                <h3>Prince School</h3>
+                <p>Class XII</p>
+                <p>June 2020 - June 2021</p>
+                <p>Percentage: 94.4%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <h2>Certificates</h2>
+        <div class="certificates-container">
+            <div class="certificate-card" data-tilt>
+                <h3>The Bits and Bytes of Computer Networking</h3>
+                <p>GOOGLE</p>
+                <p>Comprehensive understanding of computer networking concepts and protocols</p>
+                <div class="certificate-links">
+                    <a href="https://github.com/Sumit-7Goswami/certificate" target="_blank" class="cert-link"><i class="fas fa-certificate"></i> View Certificate</a>
+                     
+                </div>
+            </div>
+            <div class="certificate-card" data-tilt>
+                <h3>Python Bootcamp</h3>
+                <p>VOMAX EDU, LPU</p>
+                <p>Ed-tech venture - top 20 position in event</p>
+                <div class="certificate-links">
+                    <a href="https://github.com/Sumit-7Goswami/certificate" target="_blank" class="cert-link"><i class="fas fa-certificate"></i> View Certificate</a>
+                     
+                </div>
+            </div>
+            <div class="certificate-card" data-tilt>
+                <h3>Algorithms & Data Structures</h3>
+                <p>STANFORD-ONLINE</p>
+                <p>Divide and Conquer, Randomized Algorithms, Sorting and Searching</p>
+                <div class="certificate-links">
+                    <a href="https://github.com/Sumit-7Goswami/certificate" target="_blank" class="cert-link"><i class="fas fa-certificate"></i> View Certificate</a>
+                    
+                </div>
+            </div>
+            <div class="certificate-card" data-tilt>
+                <h3>Cloud Computing</h3>
+                <p>NPTEL</p>
+                <p> Cloud Program provided By NPTEL-IIT </p>
+                <div class="certificate-links">
+                    <a href="https://github.com/Sumit-7Goswami/certificate" target="_blank" class="cert-link"><i class="fas fa-certificate"></i> View Certificate</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card" data-tilt>
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>sumitgoswami9916@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-card" data-tilt>
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <p>+91-9057230276</p>
+                    </div>
+                </div>
+                <div class="contact-card" data-tilt>
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Punjab, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send me a message</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="social-links-container">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a href="https://github.com/Sumit-7Goswami" class="social-link" data-tilt><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sumit-goswami-/" class="social-link" data-tilt><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/loves4_tech" class="social-link" data-tilt><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
